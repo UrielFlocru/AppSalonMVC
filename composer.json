@@ -1,0 +1,25 @@
+{
+    "name": "urielflores/appsalon",
+    "description": "Proyecto con PHP8, MVC, SQL, SASS para una barberia",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Urielflores\\Appsalon\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Uriel Antonio Flores",
+            "email": "uafc102010@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

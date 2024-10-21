@@ -1,0 +1,30 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.acciones{
+    margin-top: v.$separacion;
+    @include m.tablet{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a{
+        color: v.$azul;
+        font-weight: bold;
+        display: block;
+        margin-bottom: calc(v.$separacion/2);
+        text-align: center;
+    }
+
+    .enlace-registrarse{
+        display: flex;
+        p{
+            margin: 0;
+            margin-right: 1rem;
+            padding: 0;
+            font-size: 16px;
+        }
+    }
+
+}
